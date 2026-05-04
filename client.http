@@ -1,0 +1,7 @@
+@baseUrl = http://localhost:3000
+###
+GET {{baseUrl}}
+###
+GET {{baseUrl}}/dobro/12
+###
+POST {{baseUrl}}/operacoes/somar
