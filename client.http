@@ -2,6 +2,38 @@
 ###
 GET {{baseUrl}}
 ###
+GET {{baseUrl}}/welcome?nome=André
+###
 GET {{baseUrl}}/dobro/12
 ###
 POST {{baseUrl}}/operacoes/somar
+Content-Type: application/json
+
+{
+    "numero1": 50,
+    "numero2": 40
+}
+###
+POST {{baseUrl}}/operacoes/subtrair
+Content-Type: application/json
+
+{
+    "numero1": 50,
+    "numero2": 40
+}
+###
+POST {{baseUrl}}/operacoes/multiplicar
+Content-Type: application/json
+
+{
+    "numero1": 50,
+    "numero2": 40
+}
+###
+POST {{baseUrl}}/operacoes/dividir
+Content-Type: application/json
+
+{
+    "numero1": 50,
+    "numero2": 40
+}
